@@ -1,0 +1,2285 @@
+[
+    {
+      "referential": "digital_skills",
+      "domain": "INFORMATION",
+      "competency": "FIND",
+      "level": "experienced",
+      "coni_pid": "7",
+      "chapters": {
+        "43": {
+          "students": []
+        },
+        "44": {
+          "students": []
+        },
+        "45": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 45,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "179"
+              ],
+              "timestamp": "2023-09-21T09:56:49.412420+00:00"
+            }
+          ],
+          "chapter_title": "Navigateurs et moteurs de recherche "
+        },
+        "46": {
+          "students": []
+        },
+        "47": {
+          "students": []
+        },
+        "48": {
+          "students": []
+        },
+        "49": {
+          "students": []
+        }
+      },
+      "coni_ignorance": 100
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "COMMUNICATION",
+      "competency": "COLLABORATE",
+      "level": "independent",
+      "coni_pid": "22",
+      "chapters": {
+        "145": {
+          "students": []
+        },
+        "146": {
+          "students": []
+        },
+        "147": {
+          "students": [
+            {
+              "student_id": 21,
+              "ignorance_rate": 49,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "624"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-11-08T07:14:30.354169+00:00"
+            }
+          ],
+          "chapter_title": "Outils de brainstorming"
+        },
+        "148": {
+          "students": []
+        },
+        "149": {
+          "students": [
+            {
+              "student_id": 2,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "590"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-11-17T16:44:03.787415+00:00"
+            }
+          ],
+          "chapter_title": "Outils d'organisation "
+        },
+        "150": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 6,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "561"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-21T10:16:31.441913+00:00"
+            }
+          ],
+          "chapter_title": "Pour les esprits curieux "
+        }
+      },
+      "coni_ignorance": 100
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "CONTENT",
+      "competency": "LAW",
+      "level": "experienced",
+      "coni_pid": "18",
+      "chapters": {
+        "209": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "941"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-22T14:01:16.667219+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 11.111111111111112,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "944"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-25T07:50:19.613176+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 3.703703703703704,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "946"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-26T08:00:45.290445+00:00"
+            }
+          ],
+          "chapter_title": "Droit d'auteur "
+        },
+        "208": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "969"
+              ],
+              "timestamp": "2023-09-27T07:44:57.108279+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 44.44444444444445,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "961"
+              ],
+              "timestamp": "2023-09-28T09:03:19.443629+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 88.8888888888889,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "952"
+              ],
+              "timestamp": "2023-09-29T09:45:54.700579+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "965"
+              ],
+              "timestamp": "2023-09-30T10:11:23.203977+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "967"
+              ],
+              "timestamp": "2023-10-01T10:12:54.642891+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "969"
+              ],
+              "timestamp": "2023-10-02T10:13:47.096183+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "966"
+              ],
+              "timestamp": "2023-09-12T10:14:14.948588+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "966"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-08T07:49:54.262482+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "962"
+              ],
+              "timestamp": "2023-09-09T10:12:03.427089+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "962"
+              ],
+              "timestamp": "2023-09-19T10:15:27.158242+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 66.66666666666667,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "968"
+              ],
+              "timestamp": "2023-09-18T08:03:48.178467+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 22.222222222222225,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "964"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-17T09:00:05.651384+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "963"
+              ],
+              "timestamp": "2023-09-16T10:13:22.857436+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "965"
+              ],
+              "timestamp": "2023-09-15T10:14:26.507017+00:00"
+            }
+          ],
+          "chapter_title": "Licence pour les oeuvres"
+        },
+        "210": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 22.222222222222225,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "989"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-14T07:59:39.767627+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "984"
+              ],
+              "timestamp": "2023-09-13T09:03:43.152640+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "988"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-12T10:11:14.895493+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "986"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-10T06:55:57.865861+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 88.8888888888889,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "982"
+              ],
+              "timestamp": "2023-09-07T09:00:30.222004+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 66.66666666666667,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "987"
+              ],
+              "timestamp": "2023-09-06T07:54:47.423695+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 44.44444444444445,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "985"
+              ],
+              "timestamp": "2023-09-05T09:00:10.696353+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "988"
+              ],
+              "timestamp": "2023-09-04T09:05:31.041572+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "983"
+              ],
+              "timestamp": "2023-09-03T09:45:27.691708+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "984"
+              ],
+              "timestamp": "2023-09-02T10:09:30.461776+00:00"
+            }
+          ],
+          "chapter_title": "La spécificité de l’informatique"
+        },
+        "211": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "1020"
+              ],
+              "timestamp": "2023-09-01T10:16:14.957474+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "1001"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-01T06:57:47.126450+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 7.407407407407408,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "1000"
+              ],
+              "timestamp": "2023-09-26T10:15:11.421981+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 3.703703703703704,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "1019"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-25T07:59:51.704599+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 11.111111111111112,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "1002"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-25T07:50:49.443298+00:00"
+            }
+          ],
+          "chapter_title": "Responsabilité "
+        },
+        "212": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "1007"
+              ],
+              "timestamp": "2023-08-15T13:58:57.614942+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 11.111111111111112,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "1007"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-08-16T08:00:56.451056+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "1008"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-08-17T07:50:58.160552+00:00"
+            }
+          ],
+          "chapter_title": "Pour les esprits curieux "
+        }
+      },
+      "coni_ignorance": 100
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "CONTENT",
+      "competency": "LAW",
+      "level": "elementary",
+      "coni_pid": "16",
+      "chapters": {
+        "195": {
+          "students": [
+            {
+              "student_id": 21,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "932"
+              ],
+              "timestamp": "2023-09-10T15:04:35.056166+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "930"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-08-25T08:05:24.674136+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 3.703703703703704,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "934"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-02T10:14:04.734279+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 11.111111111111112,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "808"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-16T10:09:09.649849+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 100.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "932"
+              ],
+              "timestamp": "2023-11-21T14:13:11.142360+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 100.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "930"
+              ],
+              "timestamp": "2023-11-21T14:13:53.016074+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 100.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "808"
+              ],
+              "timestamp": "2023-11-11T14:13:55.816094+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 100.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "932"
+              ],
+              "timestamp": "2023-11-16T14:14:35.008025+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 100.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "933"
+              ],
+              "timestamp": "2023-11-01T14:14:43.255204+00:00"
+            }
+          ],
+          "chapter_title": "Droit d'auteur "
+        },
+        "194": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "951"
+              ],
+              "timestamp": "2023-11-25T08:19:58.014133+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "950"
+              ],
+              "timestamp": "2023-11-26T09:01:10.650449+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "947"
+              ],
+              "timestamp": "2023-09-20T09:46:14.707562+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "810"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-08-26T10:15:42.395967+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 100.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "953"
+              ],
+              "timestamp": "2023-11-19T14:13:14.517499+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 100.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "810"
+              ],
+              "timestamp": "2023-11-12T14:13:31.821015+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 100.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "947"
+              ],
+              "timestamp": "2023-11-21T14:14:08.235386+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 100.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "953"
+              ],
+              "timestamp": "2023-11-21T14:14:31.628583+00:00"
+            }
+          ],
+          "chapter_title": "Licence pour les oeuvres"
+        },
+        "196": {
+          "students": [
+            {
+              "student_id": 21,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "956"
+              ],
+              "timestamp": "2023-09-10T15:05:07.552583+00:00"
+            },
+            {
+              "student_id": 21,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "973"
+              ],
+              "timestamp": "2023-09-10T15:05:14.044797+00:00"
+            },
+            {
+              "student_id": 21,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "972"
+              ],
+              "timestamp": "2023-09-10T15:06:02.818469+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 56,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "956"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-25T08:24:23.463914+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 66.66666666666667,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "972"
+              ],
+              "timestamp": "2023-08-19T10:09:00.351352+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 22.222222222222225,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "974"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-08-20T10:10:29.399775+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "970"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-11-21T14:12:37.479283+00:00"
+            }
+          ],
+          "chapter_title": "La spécificité de l’informatique"
+        },
+        "197": {
+          "students": [
+            {
+              "student_id": 21,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "993"
+              ],
+              "timestamp": "2023-09-10T15:06:11.498209+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 78,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "993"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-08-21T14:00:33.217728+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 11.111111111111112,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "994"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-08-22T08:20:29.995124+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "993"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-11-04T14:14:14.334670+00:00"
+            }
+          ],
+          "chapter_title": "Responsabilité "
+        },
+        "198": {
+          "students": [
+            {
+              "student_id": 21,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "990"
+              ],
+              "timestamp": "2023-09-10T15:04:49.820877+00:00"
+            },
+            {
+              "student_id": 21,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "992"
+              ],
+              "timestamp": "2023-09-10T15:05:11.083338+00:00"
+            },
+            {
+              "student_id": 21,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "991"
+              ],
+              "timestamp": "2023-09-10T15:05:16.706284+00:00"
+            },
+            {
+              "student_id": 21,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "992"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-10T15:06:14.660067+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "992"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-11T12:03:47.572067+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 66.66666666666667,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "991"
+              ],
+              "timestamp": "2023-09-25T08:20:05.019298+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 22.222222222222225,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "990"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-26T09:03:00.795099+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 100.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "990"
+              ],
+              "timestamp": "2023-11-08T07:20:31.537097+00:00"
+            }
+          ],
+          "chapter_title": "Pour les esprits curieux "
+        }
+      },
+      "coni_ignorance": 100
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "CONTENT",
+      "competency": "AUDIOVISUAL",
+      "level": "independent",
+      "coni_pid": "24",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "CONTENT",
+      "competency": "CREATE",
+      "level": "experienced",
+      "coni_pid": "12",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "CONTENT",
+      "competency": "AUDIOVISUAL",
+      "level": "elementary",
+      "coni_pid": "23",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "CONTENT",
+      "competency": "AUDIOVISUAL",
+      "level": "experienced",
+      "coni_pid": "25",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "CONTENT",
+      "competency": "AUTOMATE",
+      "level": "experienced",
+      "coni_pid": "19",
+      "chapters": {
+        "229": {
+          "students": []
+        }
+      },
+      "coni_ignorance": 100
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "COMMUNICATION",
+      "competency": "COLLABORATE",
+      "level": "experienced",
+      "coni_pid": "30",
+      "chapters": {
+        "153": {
+          "students": [
+            {
+              "student_id": 2,
+              "ignorance_rate": 67,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "485"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-11-17T16:44:19.519737+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 66.66666666666666,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "484"
+              ],
+              "timestamp": "2023-11-21T14:13:50.002565+00:00"
+            }
+          ],
+          "chapter_title": "Outils collaboratifs"
+        },
+        "154": {
+          "students": [
+            {
+              "student_id": 2,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "577"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-11-17T16:44:33.715864+00:00"
+            }
+          ],
+          "chapter_title": "Outils d'écriture collaborative"
+        },
+        "155": {
+          "students": [
+            {
+              "student_id": 2,
+              "ignorance_rate": 100.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "832"
+              ],
+              "timestamp": "2023-11-21T14:12:43.640582+00:00"
+            }
+          ],
+          "chapter_title": "Outils de brainstorming"
+        },
+        "156": {
+          "students": [
+            {
+              "student_id": 21,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "558"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-11-08T07:14:53.197759+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 100.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "560"
+              ],
+              "timestamp": "2023-11-21T14:14:19.937933+00:00"
+            }
+          ],
+          "chapter_title": "Outils de gestion de tâches "
+        },
+        "157": {
+          "students": [
+            {
+              "student_id": 2,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "609"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-11-21T14:13:44.125571+00:00"
+            }
+          ],
+          "chapter_title": "Outils d'organisation "
+        },
+        "158": {
+          "students": []
+        }
+      },
+      "coni_ignorance": 100
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "COMMUNICATION",
+      "competency": "SHARE",
+      "level": "elementary",
+      "coni_pid": "34",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "COMMUNICATION",
+      "competency": "SHARE",
+      "level": "independent",
+      "coni_pid": "35",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "COMMUNICATION",
+      "competency": "IDENTITY",
+      "level": "independent",
+      "coni_pid": "38",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "COMMUNICATION",
+      "competency": "IDENTITY",
+      "level": "elementary",
+      "coni_pid": "37",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "COMMUNICATION",
+      "competency": "INTERACT",
+      "level": "experienced",
+      "coni_pid": "33",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "COMMUNICATION",
+      "competency": "INTERACT",
+      "level": "independent",
+      "coni_pid": "32",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "COMMUNICATION",
+      "competency": "INTERACT",
+      "level": "elementary",
+      "coni_pid": "31",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "COMMUNICATION",
+      "competency": "SHARE",
+      "level": "experienced",
+      "coni_pid": "36",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "CONTENT",
+      "competency": "LAW",
+      "level": "independent",
+      "coni_pid": "40",
+      "chapters": {
+        "202": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 86,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "935"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-21T10:16:11.188128+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 66.66666666666667,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "936"
+              ],
+              "timestamp": "2023-09-22T13:59:43.104278+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 22.222222222222225,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "809"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-22T14:01:06.447132+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 4.938271604938272,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "937"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-26T09:04:12.119802+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 44.44444444444445,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "938"
+              ],
+              "timestamp": "2023-09-26T09:00:53.442584+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 3.2921810699588483,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "936"
+              ],
+              "timestamp": "2023-09-26T10:15:32.515010+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 14.814814814814817,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "939"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-26T09:03:34.639551+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 76,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "940"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-26T10:12:37.154255+00:00"
+            }
+          ],
+          "chapter_title": "Droit d'auteur"
+        },
+        "201": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate":56,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "960"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-25T07:46:19.272374+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 14.814814814814817,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "954"
+              ],
+              "timestamp": "2023-09-26T10:14:01.217566+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 4.938271604938272,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "811"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-26T10:14:09.140707+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 56,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "805"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-26T10:15:17.302805+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 11.111111111111112,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "806"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-26T09:00:23.298471+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 67,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "957"
+              ],
+              "timestamp": "2023-09-26T10:09:46.095693+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 7.407407407407408,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "955"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-26T10:13:37.134717+00:00"
+            }
+          ],
+          "chapter_title": "Licence pour les oeuvres"
+        },
+        "203": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 11.111111111111112,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "978"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-26T09:45:08.832720+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "979"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-08-24T09:03:12.680453+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 22.222222222222225,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "981"
+              ],
+              "timestamp": "2023-08-23T09:46:09.213314+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 7.407407407407408,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "1003"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-26T10:11:47.007747+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "976"
+              ],
+              "timestamp": "2023-09-25T08:24:17.670918+00:00"
+            }
+          ],
+          "chapter_title": "La spécificité de l’informatique"
+        },
+        "204": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 11.111111111111112,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "998"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-26T09:45:45.331147+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "997"
+              ],
+              "timestamp": "2023-09-25T08:05:19.011298+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "998"
+              ],
+              "timestamp": "2023-09-25T08:06:02.713901+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "998"
+              ],
+              "timestamp": "2023-09-25T08:19:36.432896+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "997"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-25T08:24:31.098187+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 3.703703703703704,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "998"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-26T10:09:13.471255+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 1.234567901234568,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "998"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-26T10:14:19.706090+00:00"
+            }
+          ],
+          "chapter_title": "Responsabilité "
+        },
+        "205": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "1006"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-22T13:06:29.561944+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 11.111111111111112,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "1005"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-25T07:58:29.552531+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 3.703703703703704,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "1004"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-26T10:10:57.492338+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 1.234567901234568,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "1004"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-26T10:13:06.304024+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 0.41152263374485604,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "1004"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-26T10:14:54.836859+00:00"
+            }
+          ],
+          "chapter_title": "Pour les esprits curieux "
+        }
+      },
+      "coni_ignorance": 100
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "SECURITY",
+      "competency": "HARDWARE",
+      "level": "elementary",
+      "coni_pid": "43",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "SECURITY",
+      "competency": "DATA",
+      "level": "elementary",
+      "coni_pid": "46",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "SECURITY",
+      "competency": "DATA",
+      "level": "independent",
+      "coni_pid": "47",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "COMMUNICATION",
+      "competency": "IDENTITY",
+      "level": "experienced",
+      "coni_pid": "39",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "SECURITY",
+      "competency": "HARDWARE",
+      "level": "experienced",
+      "coni_pid": "45",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "SECURITY",
+      "competency": "HARDWARE",
+      "level": "independent",
+      "coni_pid": "44",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "CONTENT",
+      "competency": "AUTOMATE",
+      "level": "independent",
+      "coni_pid": "42",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "CONTENT",
+      "competency": "AUTOMATE",
+      "level": "elementary",
+      "coni_pid": "41",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "SECURITY",
+      "competency": "HEALTH",
+      "level": "elementary",
+      "coni_pid": "49",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "SECURITY",
+      "competency": "HEALTH",
+      "level": "independent",
+      "coni_pid": "50",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "SECURITY",
+      "competency": "HEALTH",
+      "level": "experienced",
+      "coni_pid": "51",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "SECURITY",
+      "competency": "DATA",
+      "level": "experienced",
+      "coni_pid": "48",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "INFORMATION",
+      "competency": "EVALUATE",
+      "level": "independent",
+      "coni_pid": "5",
+      "chapters": {
+        "31": {
+          "students": []
+        },
+        "32": {
+          "students": []
+        },
+        "33": {
+          "students": []
+        },
+        "34": {
+          "students": []
+        }
+      },
+      "coni_ignorance": 92
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "INFORMATION",
+      "competency": "FIND",
+      "level": "independent",
+      "coni_pid": "4",
+      "chapters": {
+        "22": {
+          "students": []
+        },
+        "23": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "192"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-21T09:55:35.609956+00:00"
+            }
+          ],
+          "chapter_title": "Nature de l'information "
+        },
+        "24": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "112"
+              ],
+              "timestamp": "2023-09-21T09:56:55.987354+00:00"
+            }
+          ],
+          "chapter_title": "Navigateurs et moteurs de recherche "
+        },
+        "25": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "125"
+              ],
+              "timestamp": "2023-10-26T10:16:02.074343+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "125"
+              ],
+              "timestamp": "2023-10-26T10:16:15.085022+00:00"
+            }
+          ],
+          "chapter_title": "Consulter et rechercher "
+        },
+        "26": {
+          "students": []
+        },
+        "27": {
+          "students": []
+        },
+        "28": {
+          "students": []
+        }
+      },
+      "coni_ignorance": 100
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "INFORMATION",
+      "competency": "STORE",
+      "level": "independent",
+      "coni_pid": "6",
+      "chapters": {
+        "37": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 100,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "206"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-11-02T10:53:49.446268+00:00"
+            }
+          ],
+          "chapter_title": "Matériel et logiciel "
+        },
+        "38": {
+          "students": []
+        },
+        "39": {
+          "students": []
+        },
+        "40": {
+          "students": []
+        },
+        "41": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 43,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "511"
+              ],
+              "timestamp": "2023-09-21T10:16:19.078103+00:00"
+            }
+          ],
+          "chapter_title": "Mémoire "
+        },
+        "101": {
+          "students": []
+        }
+      },
+      "coni_ignorance": 100
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "INFORMATION",
+      "competency": "STORE",
+      "level": "elementary",
+      "coni_pid": "3",
+      "chapters": {
+        "15": {
+          "students": [
+            {
+              "student_id": 2,
+              "ignorance_rate": 100.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "644"
+              ],
+              "timestamp": "2023-11-21T14: 14: 03.499299+00: 00"
+            }
+          ],
+          "chapter_title": "Matériel et logiciel "
+        },
+        "16": {
+          "students": [
+            {
+              "student_id": 2,
+              "ignorance_rate": 100.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "745"
+              ],
+              "timestamp": "2023-11-21T14:14:00.602770+00:00"
+            }
+          ],
+          "chapter_title": "Sauvegarder et organiser des données "
+        },
+        "17": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 10,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "771"
+              ],
+              "timestamp": "2023-09-22T13:06:36.268457+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "436"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-11-21T14:13:25.412448+00:00"
+            }
+          ],
+          "chapter_title": "URL et domaines "
+        },
+        "18": {
+          "students": [
+            {
+              "student_id": 2,
+              "ignorance_rate": 83.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "773"
+              ],
+              "timestamp": "2023-11-21T14:12:40.583756+00:00"
+            }
+          ],
+          "chapter_title": "Raccourcis clavier "
+        },
+        "19": {
+          "students": []
+        },
+        "20": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "454"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-21T10:16:05.736117+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "454"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-11-21T14:13:22.302811+00:00"
+            }
+          ],
+          "chapter_title": "Pour les esprits curieux "
+        }
+      },
+      "coni_ignorance": 100
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "INFORMATION",
+      "competency": "STORE",
+      "level": "experienced",
+      "coni_pid": "9",
+      "chapters": {
+        "58": {
+          "students": []
+        },
+        "59": {
+          "students": []
+        },
+        "60": {
+          "students": []
+        },
+        "61": {
+          "students": []
+        },
+        "62": {
+          "students": []
+        }
+      },
+      "coni_ignorance": 100
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "CONTENT",
+      "competency": "CREATE",
+      "level": "elementary",
+      "coni_pid": "10",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "INFORMATION",
+      "competency": "EVALUATE",
+      "level": "experienced",
+      "coni_pid": "8",
+      "chapters": {
+        "52": {
+          "students": []
+        },
+        "53": {
+          "students": []
+        },
+        "54": {
+          "students": []
+        },
+        "55": {
+          "students": []
+        }
+      },
+      "coni_ignorance": 100
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "CONTENT",
+      "competency": "CREATE",
+      "level": "independent",
+      "coni_pid": "11",
+      "chapters": {},
+      "coni_ignorance": 0
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "COMMUNICATION",
+      "competency": "COLLABORATE",
+      "level": "elementary",
+      "coni_pid": "21",
+      "chapters": {
+        "97": {
+          "students": []
+        },
+        "286": {
+          "students": [
+            {
+              "student_id": 2,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "448"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-11-07T07:15:52.096156+00:00"
+            }
+          ],
+          "chapter_title": "Outils d'écriture collaborative"
+        },
+        "99": {
+          "students": [
+            {
+              "student_id": 21,
+              "ignorance_rate": 77,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "621"
+              ],
+              "timestamp": "2023-09-08T18:34:19.503354+00:00"
+            },
+            {
+              "student_id": 7,
+              "ignorance_rate": 93,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "619"
+              ],
+              "timestamp": "2023-09-11T12:03:09.424730+00:00"
+            }
+          ],
+          "chapter_title": "Outils de brainstorming"
+        },
+        "100": {
+          "students": []
+        },
+        "119": {
+          "students": [
+            {
+              "student_id": 21,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "530"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-08T18:34:22.302894+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 31,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [],
+              "question_fail": [
+                "522"
+              ],
+              "timestamp": "2023-10-02T12:36:14.259889+00:00"
+            }
+          ],
+          "chapter_title": "Outils d'organisation "
+        },
+        "120": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 43,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "1017"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-09-21T10:16:24.181249+00:00"
+            }
+          ],
+          "chapter_title": "Pour les esprits curieux "
+        }
+      },
+      "coni_ignorance": 100
+    },
+    {
+      "referential": "digital_skills",
+      "domain": "INFORMATION",
+      "competency": "EVALUATE",
+      "level": "elementary",
+      "coni_pid": "2",
+      "chapters": {
+        "10": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 75,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "138"
+              ],
+              "timestamp": "2023-09-22T13:06:19.066455+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 69.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "862"
+              ],
+              "timestamp": "2023-11-19T14:12:16.412728+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 19.0,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [],
+              "question_fail": [
+                "861"
+              ],
+              "timestamp": "2023-11-20T14:13:18.946789+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 54.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "862"
+              ],
+              "timestamp": "2023-11-21T14:13:41.520507+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "46"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-11-22T14:13:46.812912+00:00"
+            }
+          ],
+          "chapter_title": "Désinformation, intox, ... "
+        },
+        "11": {
+          "students": [
+            {
+              "student_id": 2,
+              "ignorance_rate": 73.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "234"
+              ],
+              "timestamp": "2023-11-23T14:12:13.188649+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 39.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "355"
+              ],
+              "timestamp": "2023-11-24T14:13:06.766881+00:00"
+            }
+          ],
+          "chapter_title": "Sélectionner et analyser l'information "
+        },
+        "12": {
+          "students": [
+            {
+              "student_id": 2,
+              "ignorance_rate": 33.333333333333336,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [
+                "185"
+              ],
+              "question_fail": [],
+              "timestamp": "2023-11-25T14:12:54.542373+00:00"
+            }
+          ],
+          "chapter_title": "Quid de Wikipédia ? "
+        },
+        "13": {
+          "students": [
+            {
+              "student_id": 7,
+              "ignorance_rate": 8,
+              "weight": 14.285714285714286,
+              "success": 100,
+              "question_success": [],
+              "question_fail": [
+                "1012"
+              ],
+              "timestamp": "2023-09-22T13:06:46.600386+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 63.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "880"
+              ],
+              "timestamp": "2023-11-21T14:14:23.477992+00:00"
+            },
+            {
+              "student_id": 2,
+              "ignorance_rate": 100.0,
+              "weight": 14.285714285714286,
+              "success": 0,
+              "question_success": [],
+              "question_fail": [
+                "878"
+              ],
+              "timestamp": "2023-11-21T14:14:28.330715+00:00"
+            }
+          ],
+          "chapter_title": "Pour les esprits curieux "
+        }
+      },
+      "coni_ignorance": 85
+    }
+  ]

@@ -1,0 +1,5 @@
+<p>Select student:</p>
+<select [(ngModel)]="selectedOption" (change)="onOptionSelected()">
+    <option *ngFor="let option of optionsArray" [value]="option">{{ option }}</option>
+  </select>
+  <app-student-graph #studentGraphComponent></app-student-graph>
