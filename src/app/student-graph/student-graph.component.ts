@@ -16,7 +16,6 @@ export class StudentGraphComponent implements OnInit {
   ngOnInit(): void {}
 
   createGraph(studentData: any[]): void {
-    // Call processData with studentData
     this.processData(studentData);
   }
 
@@ -24,22 +23,21 @@ export class StudentGraphComponent implements OnInit {
     console.log(data);
     if (data) {
       console.log("data exists!!");
-      const groupedData: Record<string, any[]> = {}; // Object to store grouped data by domain
-
+      const groupedData: Record<string, Record<string, any[]>> = {}; 
+  
       data.forEach((item: any) => {
         if (item.chapters) {
           const chapters = item.chapters;
-
+  
           for (const chapterKey in chapters) {
             if (chapters.hasOwnProperty(chapterKey)) {
               const chapter = chapters[chapterKey];
               const students = chapter.students || [];
-
+  
               students.forEach((student: any) => {
                 const timestamp = new Date(student.timestamp.replace(/\s/g, ''));
                 const ignoranceRate = student.ignorance_rate;
-                // console.log(ignoranceRate);
-
+  
                 const studentRecord = {
                   timestamp,
                   ignoranceRate,
@@ -50,120 +48,129 @@ export class StudentGraphComponent implements OnInit {
                   studentId: student.student_id,
                   success: student.success 
                 };
-
-                // Group data by domain
+  
                 if (!groupedData[item.domain]) {
-                  groupedData[item.domain] = [];
+                  groupedData[item.domain] = {};
                 }
-                groupedData[item.domain].push(studentRecord);
+  
+                if (!groupedData[item.domain][item.competency]) {
+                  groupedData[item.domain][item.competency] = [];
+                }
+ 
+                groupedData[item.domain][item.competency].push(studentRecord);
               });
             }
           }
         }
       });
-
+  
       this.createPlot(groupedData);
     }
   }
-  createPlot(groupedData: Record<string, any[]>): void {
-    console.log("Creating plots for multiple domains");
+  
+  createPlot(groupedData: Record<string, Record<string, any[]>>): void {
+    console.log("Creating plots for multiple domains (chaque competence)");
   
     const traces: { x: Date[]; y: number[]; type: string; mode: string; name: string; line: { color: any } }[] = [];
-    const customColors = this.customColors.slice(0, Object.keys(groupedData).length);
+    const customColors = this.customColors.slice(0, Object.keys(groupedData).length * Object.keys(groupedData[Object.keys(groupedData)[0]]).length);
+  
+    let colorIndex = 0;
   
     for (const domain in groupedData) {
       if (groupedData.hasOwnProperty(domain)) {
-        const studentData = groupedData[domain];
+        for (const competency in groupedData[domain]) {
+          const studentData = groupedData[domain][competency];
   
-        studentData.sort((a, b) => a.timestamp.getTime() - b.timestamp.getTime());
+          // Sort studentData by timestamp
+          studentData.sort((a, b) => a.timestamp.getTime() - b.timestamp.getTime());
   
-        const trace = {
-          x: [] as Date[], 
-          y: [] as number[], 
-          type: 'scatter',
-          mode: 'lines',
-          name: `Average Ignorance Rate - ${domain}`,
-          line: { color: customColors[Object.keys(groupedData).indexOf(domain)] },
-        };
+          const trace = {
+            x: [] as Date[],
+            y: [] as number[],
+            type: 'scatter',
+            mode: 'lines',
+            name: `${domain} - ${competency}`,
+            line: { 
+              // shape: 'spline', // Je ne sais pas pourquoi ça ne fonctionne que pour une seule courbe =(
+              // smoothing: 1.3,
+              color: customColors[colorIndex++],             
+              },
+
+          };
   
-        const uniqueCombinations = new Set<string>(); 
-  
-        studentData.forEach((record) => {
-          const timestamp = record.timestamp;
-          const averageIgnoranceRate = this.calculateAverageIgnoranceRate(timestamp, studentData);
-          const uniqueIdentifier = `${timestamp.getTime()}-${averageIgnoranceRate}`;
-  
-          if (!uniqueCombinations.has(uniqueIdentifier)) {
-            uniqueCombinations.add(uniqueIdentifier);
+          studentData.forEach((record) => {
+            const timestamp = record.timestamp;
+            const averageIgnoranceRate = this.calculateCustomFormulaRate(timestamp, studentData);
             trace.x.push(timestamp);
             trace.y.push(averageIgnoranceRate);
-          }
-        });
-
-        if (studentData.length === 0) {
-          trace.y.push(100);
-        }
+          });
   
-        traces.push(trace);
+          if (studentData.length === 0) {
+            trace.y.push(100); // Default value if no data (if success == -2)
+          }
+  
+          traces.push(trace);
+        }
       }
     }
   
     const layout = {
       title: 'Evolution of Ignorance Rate Over Time',
-      xaxis: {
-        title: 'Timestamp',
-      },
-      yaxis: {
-        title: 'Average Ignorance Rate',
-      },
+      xaxis: { title: 'Timestamp' },
+      yaxis: { title: 'Average Ignorance Rate' },
     };
   
-    const plotlyData = traces;
-    console.log(plotlyData);
+    console.log(traces);
   
-    this.plot.plot('ignoranceRateGraph', plotlyData, layout);
+    this.plot.plot('ignoranceRateGraph', traces, layout);
   }
   
-
-  calculateAverageIgnoranceRate(currentTimestamp: Date, studentData: any[]): number {
-    let totalRate = 0;
-    let recordCount = 0;
-
-    // Filter records that are less than or equal to the current timestamp
+  calculateCustomFormulaRate(currentTimestamp: Date, studentData: any[]): number {
+    const totalRates: Record<string, number> = {
+      "experienced": 0,
+      "elementary": 0,
+      "independent": 0
+    };
+    const recordCounts: Record<string, number> = {
+      "experienced": 0,
+      "elementary": 0,
+      "independent": 0
+    };
+  
+    // Filter records that are less than or equal to the CURRENT timestamp
     const filteredRecords = studentData.filter((record) => record.timestamp <= currentTimestamp);
-
-    if (filteredRecords.length === 0) {
-      return 0;
-    }
-
-    // Set for delete the DUPLICATES
-    const chapterGroups: Record<string, any[]> = {};
-
-    filteredRecords.forEach((record) => {
-      if (!chapterGroups[record.chapterName]) {
-        chapterGroups[record.chapterName] = [];
+  
+    // Group records by chapter and find the most recent record for each chapter
+    const mostRecentRecordsByChapter: Record<string, any> = {};
+  
+    filteredRecords.forEach(record => {
+      const chapterKey = record.chapterName;
+      if (!mostRecentRecordsByChapter[chapterKey] || mostRecentRecordsByChapter[chapterKey].timestamp < record.timestamp) {
+        mostRecentRecordsByChapter[chapterKey] = record;
       }
-      chapterGroups[record.chapterName].push(record);
     });
-
-    // Calculate the average for each chapter's most recent record
-    for (const chapterName in chapterGroups) {
-      if (chapterGroups.hasOwnProperty(chapterName)) {
-        const chapterRecords = chapterGroups[chapterName];
-        const mostRecentRecord = chapterRecords.reduce((prev, current) =>
-          prev.timestamp > current.timestamp ? prev : current
-        );
-
-        totalRate += mostRecentRecord.ignoranceRate;
-        recordCount++;
+  
+    // Calculate total rates using the most recent records for each chapter
+    Object.values(mostRecentRecordsByChapter).forEach((record) => {
+      const level = record.level;
+      if (totalRates.hasOwnProperty(level)) {
+        totalRates[level] += record.ignoranceRate;
+        recordCounts[level]++;
       }
-    }
-
-    if (recordCount === 0) {
-      return 0;
-    }
-
-    // console.log(recordCount);
-    return totalRate / recordCount;
+    });
+  
+    // Calculate average rates
+    const averageRates: Record<string, number> = {
+      "experienced": recordCounts["experienced"] > 0 ? (totalRates["experienced"] / recordCounts["experienced"]) / 100 : 0,
+      "elementary": recordCounts["elementary"] > 0 ? (totalRates["elementary"] / recordCounts["elementary"]) / 100 : 0,
+      "independent": recordCounts["independent"] > 0 ? (totalRates["independent"] / recordCounts["independent"]) / 100 : 0
+    };
+    
+    // Application de la formule qu'Ambroise m'a donné
+    const result = averageRates["experienced"] * 101 + averageRates["elementary"] * 222 + averageRates["independent"] * 330;
+    
+    return result;
   }
+  
+  
 }

@@ -59,7 +59,7 @@ export class JsonDataParserComponent implements OnInit {
           console.log('Success:', student.success);
           console.log('Timestamp:', student.timestamp);
         });
-        this.displayStudentGraph(selectedStudents); // Display the student graph
+        this.displayStudentGraph(selectedStudents); 
       } else {
         console.error('Selected student not found.');
       }
